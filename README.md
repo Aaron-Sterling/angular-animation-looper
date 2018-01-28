@@ -1,6 +1,9 @@
 # angular-animation-looper
 Dynamic looping of Angular animations. Define an animaton with keyframes, specify a number of iterations, and the animation will repeat for that many iterations. You can change the number of iterations programmatically.
 
+Next page: [Setup](https://github.com/Aaron-Sterling/angular-animation-looper/blob/master/docs/setup.md)
+Complete example: [Ionic demo](https://github.com/Aaron-Sterling/angular-animation-looper/tree/master/ionic%20demo)
+
 ## Installation
 ```
 npm install angular-animation-looper --save
@@ -57,4 +60,5 @@ export class SampleClass {
 }
 ```
 
-For a complete example, see the [Ionic Demo](https://github.com/Aaron-Sterling/angular-animation-looper/tree/master/ionic%20demo).
+Next page: [Setup](https://github.com/Aaron-Sterling/angular-animation-looper/blob/master/docs/setup.md)
+Complete example: [Ionic demo](https://github.com/Aaron-Sterling/angular-animation-looper/tree/master/ionic%20demo)
