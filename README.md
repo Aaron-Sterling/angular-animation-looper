@@ -40,7 +40,7 @@ In the ts file for your template:
 import { LoopAnimationService, loopableAnimation } from 'angular-animations-looper';
 
 import ANIMATION_TO_LOOP from './animation-definition';  // this looks like : animate(starting state, keyframes)
-const LOOPED_ANIMATION = loopablaAnimaton(ANIMATION_TO_LOOP);
+const LOOPED_ANIMATION = loopableAnimaton(ANIMATION_TO_LOOP);
 
 @Component({
 
