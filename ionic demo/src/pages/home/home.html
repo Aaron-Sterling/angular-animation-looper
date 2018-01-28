@@ -1,0 +1,34 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Iteration Demo
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  
+  <br><br>
+  <ion-item style="text-align: center">
+    <br><br><br><br>
+    <ion-icon name="ionitron" 
+              style="font-size: 80px"
+              [@bounce]="bounceState" 
+              (@bounce.done)="loop.next('bounce')">
+    </ion-icon>
+    <br>
+    Bounces remaining: {{bouncesRemaining | async}}
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Number of Bounces</ion-label>
+    <ion-range [(ngModel)]="numberOfBounces" min="1" max="10" snaps="true">
+      <ion-label range-left>1</ion-label>
+      <ion-label range-right>10</ion-label>
+    </ion-range>
+  </ion-item>
+
+  <button ion-button block (click)="startBouncing()">Start Bouncing</button>
+  <button ion-button block color="danger" (click)="stopBouncing()">Stop Bouncing</button>
+
+</ion-content>
