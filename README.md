@@ -51,7 +51,7 @@ const LOOPABLE_ANIMATION = loopableAnimaton(ANIMATION_TO_LOOP);
 })
 export class SampleClass {
 
-    constructor(this.loop: LoopAnimationService) {  // <-- inject this service
+    constructor(public loop: LoopAnimationService) {  // <-- inject this service
 
     this.loop.registerAnimation('sampleTrigger', LOOPABLE_ANIMATION, 7);  // this animation will loop 7 times once it is started
     this.loop.currentState('sampleTrigger').subscribe(state => this.animationState = state); // required so the service can talk to the trigger in the template
