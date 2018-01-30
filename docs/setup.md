@@ -1,7 +1,7 @@
 # Setup
 
 * Previous page: [Installation and Sample Usage](https://github.com/Aaron-Sterling/angular-animation-looper/blob/master/README.md)
-* Next page: [API](docs/api.md)
+* Next page: [API](/docs/api.md)
 * Complete example: [Ionic demo](https://github.com/Aaron-Sterling/angular-animation-looper/tree/master/ionic%20demo)
 
 As I write this, Angular animations are connected to the template in a somewhat clunky way. The Angular team has a plan to connect animations to a directive.  If that comes to pass, this animation looper can be a lot simpler (and it might no longer be necessary).  In the meantime, setting up this looper is a bit clunky.  It's simple in the template, but there are a few lines of typescript you will need. Fortunately, you can almost copypaste them and be done.
@@ -80,5 +80,5 @@ this.loop.startAnimation('sampleTrigger');
 ```
 
 * Previous page: [Installation and Sample Usage](https://github.com/Aaron-Sterling/angular-animation-looper/blob/master/README.md)
-* Next page: [API](docs/api.md)
+* Next page: [API](/docs/api.md)
 * Complete example: [Ionic demo](https://github.com/Aaron-Sterling/angular-animation-looper/tree/master/ionic%20demo)
